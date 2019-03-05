@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "609610100694",
+    "firebase_url": "https://menstrual-calendar-3fbf9.firebaseio.com",
+    "project_id": "menstrual-calendar-3fbf9",
+    "storage_bucket": "menstrual-calendar-3fbf9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609610100694:android:16cd68d5f9563541",
+        "android_client_info": {
+          "package_name": "com.thesis.group.periodecalcalendar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609610100694-0a2uc1cr7c7dtj3i589872rat24t0nlo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASnPO9fGql2iOEOPPx-H4ktfdXZOLdw3k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

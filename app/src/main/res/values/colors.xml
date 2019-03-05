@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <!--custom color-->
+    <color name="colorBackGround">#ffbbd3</color>
+    <color name="colorContentBody">#fcaea7</color>
+    <color name="colorHeaderText">#f4387b</color>
+    <color name="colorFooterText">#f4387b</color>
+    <color name="colorTextView">#f4387b</color>
+    <color name="colorInputBackGround">#ffbbd3</color>
+    <color name="colorInputText">#f4387b</color>
+    <color name="colorBtnText">#ffff</color>
+    <color name="colorBtn">#f52985</color>
+    <color name="colorBtnDisable">#aca9aa</color>
+    <color name="colorWhite">#ffff</color>
+    <color name="colorFertile">#80d8ff</color>
+    <color name="colorRedDays">#d50000</color>
+    <color name="colorNonFertile">#00c853</color>
+    <color name="colorHighChancePreg">#6a1b9a</color>
+    <color name="colorBtnIndexTab">#CCCCCC</color>
+    <color name="colorBtnArrowIndexTab">#999999</color>
+    <color name="colorEditTextNote">#CCCCCC</color>
+</resources>

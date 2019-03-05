@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">Menstrual Calendar</string>
+    <string name="terms_conditions"><u>Accept Terms and Conditions</u></string>
+    <string name="imageDescription">IMAGE</string>
+    <!--signin page-->
+    <string name="imageGirlSignin">Girl Background Image</string>
+    <string name="imageGirlSymbolSigin">Female Symbol</string>
+    <string name="tfUsernameSignin">Username</string>
+    <string name="tfPasswordSignin">Password</string>
+    <string name="btnLoginSignin">LOGIN</string>
+    <string name="btnRegisterSignin">REGISTER</string>
+    <string name="header1Signin">WELCOME TO</string>
+    <string name="header2Signin">MENSTRUAL APPLICATION</string>
+    <string name="tvForgotPasswordSignin"><u>Forgot Password?</u></string>
+    <!--signup page-->
+    <string name="tvHeaderSignup">REGISTRATION</string>
+    <string name="tfUsernameSignup">USERNAME</string>
+    <string name="tfPasswordSignup">PASSWORD</string>
+    <string name="tfVerifyPasswordSignup">VERIFY PASSWORD</string>
+    <string name="tfPhoneSignup">CONTACT NUMBER</string>
+    <string name="tfEmailSignup">EMAIL ADDRESS</string>
+    <string name="tfParentEmailSignup">BIRTHDATE M/D/Y</string>
+    <string name="tfAcceptTermsSignup"><u>Accept Terms and Conditions</u></string>
+    <string name="btnRegisterSignup">REGISTER</string>
+    <string name="tvLoginSignup"><u>Login Here</u></string>
+    <string name="tvFooterSignup">Already a Member?</string>
+    <!--selectmenstruation-->
+    <string name="tvHeaderSelectMens">SELECT MENSTRUATION</string>
+    <string name="btnRegMensSelectMens">REGULAR\nMENSTRUATION</string>
+    <string name="btnNonRegMensSelectMens">NON-REGULAR\nMENSTRUATION</string>
+    <!--regularmenstruationquestionnaire-->
+    <string name="tvHintRegMens"></string>
+    <string name="tvHeader1RegMens">REGULAR MENSTRUATION</string>
+    <string name="tvHeader2RegMens">QUESTIONNAIRE</string>
+    <string name="tvAgeRegMens">AGE:</string>
+    <string name="tvHeightRegMens">HEIGHT (in):</string>
+    <string name="tvWeightRegMens">WEIGHT (lb):</string>
+    <string name="tvPeriodLengthRegMens">MENSTRUAL PERIOD LENGTH:</string>
+    <string name="tvLastPeriodRegMens">DATE OF LAST PERIOD:</string>
+    <string name="tvChanceDelayRegMens">HAVING CHANCE OF\nMENSTRUAL DELAY?\nIF YES HOW MANY DAYS?:</string>
+    <string name="tvWorkingRegMens">WORKING?:</string>
+    <string name="tvSportsActiveRegMens">SPORTS ACTIVE?:</string>
+    <string name="tvStatusRegMens">STATUS:</string>
+    <string name="tvTakingPillsRegMens">ARE YOU TAKING SOME PILLS?:</string>
+    <string name="tvStomachCrampsRegMens">ARE YOU HAVING\nSTOMACH CRAMPS BEFORE\nTHE MENSTRUATION?:</string>
+    <string name="btnSubmitRegmens">SUBMIT</string>
+    <!--nonregularmenstruationquestionnaire-->
+    <string name="tvHintNonRegMens"></string>
+    <string name="tvHeader1NonRegMens">NON-REGULAR MENSTRUATION</string>
+    <string name="tvHeader2NonRegMens">QUESTIONNAIRE</string>
+    <string name="tvAgeNonRegMens">AGE:</string>
+    <string name="tvHeightNonRegMens">HEIGHT (in):</string>
+    <string name="tvWeightNonRegMens">WEIGHT (lb):</string>
+    <string name="tvWorkingNonRegMens">WORKING?:</string>
+    <string name="tvSportsActiveNonRegMens">SPORTS ACTIVE?:</string>
+    <string name="tvTakingPillsNonRegMens">ARE YOU TAKING SOME PILLS?:</string>
+    <string name="tvBreastFeedingNonRegMens">BREASTFEEDING?:</string>
+    <string name="tvLastMensNonRegMens">LAST MENSTRUAL DATE?:</string>
+    <string name="btnSubmitNonRegmens">SUBMIT</string>
+    <!--welcomeuser-->
+    <string name="tvHeaderWelcomeUser">WELCOME USER!</string>
+    <string name="tvMyDayWelcomeUser">Today</string>
+    <string name="tvMyCalendarWelcomeUser">Calendar</string>
+    <string name="tvMyNotesWelcomeUser">Notes</string>
+    <string name="tvRemindersWelcomeUser">Reminders</string>
+    <string name="tvSettingsWelcomeUser">Settings</string>
+    <string name="btnMyDayWelcomeUser">TODAY</string>
+    <string name="tvLogoutWelcomeUser">Logout</string>
+    <string name="tvHistoryWelcomeUser">History</string>
+    <string name="tvEditProfileWelcomeUser">Edit Profile</string>
+    <!--menstrual calendar-->
+    <string name="tvMonthMenstrualCalendar">MONTH</string>
+    <string name="tvPreviousMonthMenstrualCalendar">PREVIOUS</string>
+    <string name="tvNextMonthMenstrualCalendar">>></string>
+    <string name="tvEditMenstrualCalendar">UPDATE</string>
+    <string name="tvHeaderMenstrualCalendar">MENSTRUAL CALENDAR</string>
+    <string name="tvFertileDaysMenstrualCalendar">FERTILE DAYS</string>
+    <string name="tvNonFertileDaysMenstrualCalendar">NON-FERTILE\nDAYS</string>
+    <string name="tvRedDaysMenstrualCalendar">RED DAYS</string>
+    <string name="tvHighChancePregsMenstrualCalendar">HIGH-CHANCE\nOF PREGNANCY</string>
+    <!--my current cycle-->
+    <string name="tvHeaderMyCurrentCycle">MY CURRENT CYCLE</string>
+    <string name="tvDayMyCurrentCycle">MONDAY</string>
+    <string name="tvStatusMyCurrentCycle">NORMAL</string>
+    <string name="tvChancePregMyCurrentCycle1">NO CHANCE OF</string>
+    <string name="tvChancePregMyCurrentCycle2">PREGNANCY</string>
+    <!--settings-->
+    <string name="tvHeaderSettings">SETTINGS</string>
+    <string name="tvNotifBeforeMensSettings">NOTIFICATION BEFORE\nMENSTRUATION?</string>
+    <string name="tvNotifWhenFertileSettings">NOTIFICATION WHEN FERTILE?</string>
+    <string name="tvNotifWhenNotFertileSettings">NOTIFICATION WHEN NOT FERTILE?</string>
+    <string name="tvNotifForTipsSettings">NOTIFICATION FOR TIPS\nAND SOME INTERVENTIONS?</string>
+    <string name="tvNotifViaTextSettings">NOTIFICATION VIA TEXT MESSAGE?</string>
+    <string name="btnSubmitSettings">SUBMIT</string>
+    <string name="title_activity_notes">NOTES</string>
+    <!--edit profile-->
+    <string name="tvHeaderEditProfile">EDIT PROFILE</string>
+    <string name="tvHeightEditProfile">HEIGHT (in):</string>
+    <string name="tvWeightEditProfile">WEIGHT (lb):</string>
+    <string name="tvWorkingEditProfile">WORKING?:</string>
+    <string name="tvSportsProfile">SPORTS ACTIVE?:</string>
+    <string name="tvProfilePicProfile">PROFILE PICTURE:</string>
+    <!--update calendar-->
+    <string name="tvHeaderUpdateCalendar">UPDATE CALENDAR</string>
+    <string name="tvDayUpdateCalendar">DAY:</string>
+    <string name="btnEditUpateCalendar">EDIT</string>
+    <!--notes-->
+    <string name="tvHeaderNotes">NOTES</string>
+    <string name="tvAddNotes">ADD NOTES</string>
+    <string name="imgAddNotes">ADD NOTES</string>
+    <!--add notes-->
+    <string name="tvHeaderAddNotes">ADD NOTES</string>
+    <string name="etInputAddNotes">INPUT TEXT HERE</string>
+    <string name="tvNotesNotes">NOTES</string>
+    <string name="btnSubmitAddNotes">SUBMIT</string>
+    <!--reminders-->
+    <string name="tvHeaderReminders">REMINDERS</string>
+    <string name="tvAddReminders">ADD REMINDERS</string>
+    <string name="imgAddReminders">ADD REMINDERS</string>
+    <!--add reminders-->
+    <string name="tvHeaderAddReminders">ADD REMINDERS</string>
+    <string name="tvRepeatAddReminders">REPEAT?:</string>
+    <string name="tvTimeNotifAddReminders">TIME NOTIFY?:</string>
+    <!--reminder item list-->
+    <string name="tvReminderReminders">REMINDER</string>
+    <string name="tvDateReminders">DATE</string>
+    <!--history-->
+    <string name="tvHeaderHistory">HISTORY</string>
+    <string name="tvHistoryHistory">HISTORY</string>
+    <string name="tvDateHistory">DATE</string>
+    <string name="tvDeleteAllHistory">DELETE ALL</string>
+    <!--arrows-->
+    <string name="imgLeftArrow">LEFT ARROW</string>
+    <string name="imgUpArrow">UP ARROW</string>
+    <string name="imgRightArrow">RIGHT ARROW</string>
+    <!--input email-->
+    <string name="tvInputEmail">Enter Email</string>
+    <string name="etInputEmail">Enter Email Here</string>
+    <!--custom notification-->
+    <string name="tvHeaderPushNotif">Notification Header</string>
+    <string name="tvNotifPushNOtif">Notification Body</string>
+
+</resources>

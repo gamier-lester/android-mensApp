@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thesis.group.periodecalcalendar">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/appicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".signin"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".signup"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".selectmenstruation"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".regularmenstruationquestionnaire"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".welcomeuser"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".mycurrentcycle"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".menstrualcalendar"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".nonregularmenstruationquestionnaire"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".nonregwelcomeuser"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".settings"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+        <receiver
+            android:name=".AlarmReceiver"
+            android:label="@string/app_name"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.thesis.group.periodecalcalendar.DISPLAY_NOTIFICATIONSETTINGS" />
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name=".editprofile"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".updatecalendar"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".notes"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".addnotes"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".reminder"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".addreminders"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+        <receiver
+            android:name=".AlarmReceiverReminders"
+            android:exported="false"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.thesis.group.periodecalcalendar.DISPLAY_NOTIFICATIONREMINDERS" />
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name=".history"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop" />
+        <receiver
+            android:name=".AlarmReceiverNonReg"
+            android:exported="false"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.thesis.group.periodecalcalendar.DISPLAY_NOTIFICATIONNONREG" />
+            </intent-filter>
+        </receiver>
+        <activity android:name=".editprofilenonreg"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"/>
+    </application>
+
+</manifest>
